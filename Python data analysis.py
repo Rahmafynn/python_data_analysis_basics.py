@@ -1,13 +1,5 @@
 import matplotlib.pyplot as plt ## using the mathplotlib for data visualisation
 
-
-#plt.scatter(year,pop)
-#plt.show()
-#plt.clf()
-
-### Histograms
-#type:ignore
-#help(plt.hist)
 import matplotlib.pyplot as plt
 values=(2,3,5,2,7,9,8,6,8,5,3,2)
 #plt.hist(values,bins=3)
@@ -66,7 +58,7 @@ print("the updated europe dictionary including italy is", europe)
 
 
 
-print("INTRODUCING PANDASSSSSSS(PANDA IS A HIGH LEVEL DATA MANIPULATION TOOL)")
+print("INTRODUCING PANDAS (PANDA IS A HIGH LEVEL DATA MANIPULATION TOOL)")
 print('I can make data frames from panda through dictionaries')
 
 data = { 'countries': ['france','germany'],
@@ -77,11 +69,6 @@ print(data)
 import pandas as pd
 brics=pd.DataFrame(data)
 print(brics)
-
-# print(brics['capitals'])
-# print(brics[['capitals']])
-# print(brics.loc[['france']])
-# print(brics.loc[['france']])
 
 brics.index=['FR','GR']
 print(brics)
@@ -210,3 +197,4 @@ dense_population = df[many_population]
 
 # Print dense populatiom
 print(dense_population)
+
